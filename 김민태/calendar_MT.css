@@ -1,3 +1,37 @@
 div {
   display: flex;
 }
+#calendar {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+#calendar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#calendar th, #calendar td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+#calendar th {
+  background-color: #f2f2f2;
+}
+#calendar td {
+  height: 50px;
+}
+#calendar .controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#calendar .controls button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
